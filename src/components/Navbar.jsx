@@ -7,6 +7,7 @@ const Navbar = () => {
         { name: "Services", link: "/dashboard" },
         { name: "View Attendance", link: "/attendance" },
         { name: "Take Attendance", link: "/add-student" },
+        { name: "LogOut", link: "/`https://us-west-2uwv34cxcp.auth.us-west-2.amazoncognito.com/logout?client_id=hk9c1enmtsbh8i4p8lmko3s5h&logout_uri=https://us-west-2uwv34cxcp.auth.us-west-2.amazoncognito.com/login?client_id=hk9c1enmtsbh8i4p8lmko3s5h&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fmain.d1ad5wzhi8pnl6.amplifyapp.com"},
     ];
     let [open, setOpen] = useState(false);
     return (

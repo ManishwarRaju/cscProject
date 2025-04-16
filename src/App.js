@@ -23,7 +23,7 @@ function App() {
           <Route path="/attendance" element={<Attendance/>} />
 
           <Route path="/add-student" element={<MarkPresent/>} />
-
+          
         </Routes>
 
       </BrowserRouter>
